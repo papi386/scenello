@@ -2,8 +2,8 @@
   "spdxVersion": "SPDX-2.3",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "name": "scenello-0.5.0-rc2",
-  "documentNamespace": "https://spdx.org/spdxdocs/scenello-0.5.0-rc2-2b924935-f9d9-47df-bd50-fd6c1ca928b8",
+  "name": "scenello-0.5.0-beta.1",
+  "documentNamespace": "https://spdx.org/spdxdocs/scenello-0.5.0-beta.1-2b924935-f9d9-47df-bd50-fd6c1ca928b8",
   "creationInfo": {
     "creators": [
       "Tool: Scenello local release tooling"
@@ -14,7 +14,7 @@
     {
       "name": "scenello",
       "SPDXID": "SPDXRef-Package",
-      "versionInfo": "0.5.0-rc2",
+      "versionInfo": "0.5.0-beta.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
