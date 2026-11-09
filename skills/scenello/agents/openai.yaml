@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scenello"
+  short_description: "Cinematic websites with measured visual quality"
+  default_prompt: "Use $scenello to build or improve this website with reference-led art direction, functional cinematic motion and verified responsive performance."

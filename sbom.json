@@ -1,0 +1,39 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "scenello-0.5.0-rc2",
+  "documentNamespace": "https://spdx.org/spdxdocs/scenello-0.5.0-rc2-2b924935-f9d9-47df-bd50-fd6c1ca928b8",
+  "creationInfo": {
+    "creators": [
+      "Tool: Scenello local release tooling"
+    ],
+    "created": "2026-11-09T00:00:00Z"
+  },
+  "packages": [
+    {
+      "name": "scenello",
+      "SPDXID": "SPDXRef-Package",
+      "versionInfo": "0.5.0-rc2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2026 Scenello contributors"
+    },
+    {
+      "name": "Scenello UI (renamed Selawik derivative)",
+      "SPDXID": "SPDXRef-DemoFonts",
+      "versionInfo": "0.3 (complete source faces and content-specific critical subsets)",
+      "downloadLocation": "https://github.com/microsoft/Selawik",
+      "filesAnalyzed": false,
+      "licenseConcluded": "OFL-1.1",
+      "licenseDeclared": "OFL-1.1",
+      "copyrightText": "Copyright 2015 Microsoft Corporation; modifications by Scenello contributors"
+    }
+  ],
+  "documentDescribes": [
+    "SPDXRef-Package"
+  ],
+  "comment": "No third-party JS/Python runtime libraries. Bundled demo font software is OFL-1.1, not MIT. FontTools 4.68.0 is optional build tooling, not redistributed."
+}

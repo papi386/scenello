@@ -1,0 +1,23 @@
+name: verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  source-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Unit, negative package, provenance and privacy tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Geometry
+        run: node --test tests/geometry.test.mjs
+      - name: Build and consumer verify
+        run: |
+          python3 tools/release.py --package dist/review.zip
+          python3 tools/verify_package.py dist/review.zip
+          python3 -m zipfile -e dist/review.zip dist/extracted
+          cd dist/extracted
+          python3 -m unittest discover -s tests -p test_*.py -v

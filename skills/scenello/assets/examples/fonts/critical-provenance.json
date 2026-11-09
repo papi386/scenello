@@ -1,0 +1,29 @@
+{
+  "builder": "tools/build_critical_fonts.py",
+  "source_license": "OFL-1.1",
+  "license_file": "skills/scenello/assets/examples/fonts/LICENSE.txt",
+  "assets": [
+    {
+      "file": "skills/scenello/assets/examples/fonts/scenello-ui-critical-regular.woff",
+      "source": "skills/scenello/assets/examples/fonts/scenello-ui-regular.woff",
+      "source_sha256": "f97ce60f2d8d26eead3a82f8d591f3be5d3e7dff7306065bb1bcfe435c1ca3ea",
+      "license": "OFL-1.1",
+      "bytes": 8020,
+      "sha256": "7b021f4e31152a6d91899ac9228a18c9afacb7d749c35c500a521e56d28e698c",
+      "glyph_codepoints": 101,
+      "unicode_range": "U+20-7E,U+B7,U+2191-2192,U+2197-2198,U+25C9",
+      "outlines_and_metrics": "verified identical for every included codepoint"
+    },
+    {
+      "file": "skills/scenello/assets/examples/fonts/scenello-ui-critical-bold.woff",
+      "source": "skills/scenello/assets/examples/fonts/scenello-ui-bold.woff",
+      "source_sha256": "8715e25c43b302a402c086e3073f186d0c792db6c560e0f02fc0f7b451a3c84e",
+      "license": "OFL-1.1",
+      "bytes": 8004,
+      "sha256": "9db714a21711c015a755a6094974b22e760099073bb83d4fc15143fc8563b03a",
+      "glyph_codepoints": 101,
+      "unicode_range": "U+20-7E,U+B7,U+2191-2192,U+2197-2198,U+25C9",
+      "outlines_and_metrics": "verified identical for every included codepoint"
+    }
+  ]
+}

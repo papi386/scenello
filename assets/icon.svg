@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Scenello sculptural four-point ribbon icon">
+<rect width="256" height="256" fill="#0d0a17"/>
+  <defs>
+    <radialGradient id="ambient" cx="50%" cy="49%" r="53%">
+      <stop stop-color="#211a37" stop-opacity=".62"/>
+      <stop offset=".53" stop-color="#141025" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#0c0916" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="outer" x1="17%" y1="18%" x2="88%" y2="82%">
+      <stop stop-color="#7b63f0"/><stop offset=".15" stop-color="#dfdbff"/>
+      <stop offset=".39" stop-color="#5f4ac0"/><stop offset=".75" stop-color="#b1a7ff"/><stop offset="1" stop-color="#6d4fea"/>
+    </linearGradient>
+    <linearGradient id="topface" x1="26%" y1="10%" x2="68%" y2="88%">
+      <stop stop-color="#e7e5ff"/><stop offset=".14" stop-color="#b8b0ff"/>
+      <stop offset=".36" stop-color="#5a4898"/><stop offset=".49" stop-color="#f4f2ff"/>
+      <stop offset=".62" stop-color="#cec9ff"/><stop offset=".85" stop-color="#524384"/><stop offset="1" stop-color="#130f26"/>
+    </linearGradient>
+    <linearGradient id="leftface" x1="0%" y1="18%" x2="92%" y2="81%">
+      <stop stop-color="#a7a3ff"/><stop offset=".2" stop-color="#3d3267"/>
+      <stop offset=".58" stop-color="#0e0b1c"/><stop offset=".83" stop-color="#2d245c"/><stop offset="1" stop-color="#5c42d0"/>
+    </linearGradient>
+    <linearGradient id="bottomface" x1="11%" y1="34%" x2="89%" y2="81%">
+      <stop stop-color="#efedff"/><stop offset=".25" stop-color="#c5c3fa"/>
+      <stop offset=".51" stop-color="#7a66dc"/><stop offset=".68" stop-color="#3f2ca7"/>
+      <stop offset=".85" stop-color="#b7a9ff"/><stop offset="1" stop-color="#6248d1"/>
+    </linearGradient>
+    <linearGradient id="rightface" x1="23%" y1="0%" x2="85%" y2="100%">
+      <stop stop-color="#faf9ff"/><stop offset=".17" stop-color="#aaa2ea"/>
+      <stop offset=".39" stop-color="#342c61"/><stop offset=".51" stop-color="#aaa4d8"/>
+      <stop offset=".75" stop-color="#6a589e"/><stop offset=".87" stop-color="#d9d3ff"/><stop offset="1" stop-color="#7761ed"/>
+    </linearGradient>
+    <linearGradient id="ribbonedge" x1="0%" y1="15%" x2="94%" y2="100%">
+      <stop stop-color="#d4d1ff"/><stop offset=".31" stop-color="#6855f8"/><stop offset=".60" stop-color="#312478"/><stop offset="1" stop-color="#7150eb"/>
+    </linearGradient>
+    <linearGradient id="topridge" x1="10%" y1="0%" x2="89%" y2="100%">
+      <stop stop-color="#a6a0ff"/><stop offset=".43" stop-color="#f9f7ff"/>
+      <stop offset=".7" stop-color="#e0dcff"/><stop offset="1" stop-color="#a7a0fa"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="2.1"/></filter>
+    <filter id="sheen" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="1.15"/></filter>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" fill="url(#ambient)"/>
+  <path d="M80 24 C116 72 167 101 244 81 C206 111 172 163 185 248 C144 203 90 180 22 185 C65 152 96 83 80 24 Z" fill="url(#outer)" opacity=".45" filter="url(#glow)"/>
+  <path d="M80 24 C102 76 130 111 145 132 C112 149 62 171 22 185 C72 131 89 72 80 24 Z" fill="url(#leftface)"/>
+  <path d="M80 24 C120 81 177 100 244 81 C205 92 172 116 145 132 C122 96 99 58 80 24 Z" fill="url(#topface)"/>
+  <path d="M22 185 C66 154 110 145 145 132 C154 169 171 215 185 248 C137 201 88 178 22 185 Z" fill="url(#bottomface)"/>
+  <path d="M244 81 C205 117 169 160 185 248 C161 202 145 166 145 132 C174 115 216 96 244 81 Z" fill="url(#rightface)"/>
+  <path d="M80 24 C103 70 126 104 145 132 C159 162 176 218 185 248 C167 206 147 164 139 135 C115 93 96 61 80 24 Z" fill="url(#ribbonedge)" opacity=".94"/>
+  <path d="M80 24 C128 87 173 99 244 81" fill="none" stroke="url(#topridge)" stroke-width="2.6" opacity=".96" filter="url(#sheen)"/>
+  <path d="M22 185 C68 151 93 77 80 24" fill="none" stroke="#b7acff" stroke-width="1.8" opacity=".9" filter="url(#sheen)"/>
+  <path d="M22 185 C85 175 140 200 185 248" fill="none" stroke="#7a5cf1" stroke-width="2.3" opacity=".88"/>
+  <path d="M244 81 C206 118 175 169 185 248" fill="none" stroke="#af9cff" stroke-width="1.6" opacity=".8" filter="url(#sheen)"/>
+</svg>

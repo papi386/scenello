@@ -1,0 +1,526 @@
+[
+  {
+    "id": "SCN-01",
+    "technique": "Optical portal",
+    "purpose": "Maintain a shared focal aperture while content arrives in depth.",
+    "module": "motion.md",
+    "demo": "assets/examples/observatory/",
+    "tags": [
+      "hero",
+      "portal",
+      "camera",
+      "scroll",
+      "cinematic"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-02",
+    "technique": "Diagonal card handoff",
+    "purpose": "Preserve card identity through group and individual transforms.",
+    "module": "spatial-cards.md",
+    "demo": "assets/examples/materials/",
+    "tags": [
+      "cards",
+      "shuffle",
+      "turn",
+      "orbit",
+      "gallery",
+      "scroll"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-03",
+    "technique": "Responsive reframe",
+    "purpose": "Keep the mechanism while reducing overlap and preserving reading zones.",
+    "module": "responsive-access.md",
+    "demo": "assets/examples/materials/",
+    "tags": [
+      "mobile",
+      "responsive",
+      "touch",
+      "accessibility",
+      "tablet"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-04",
+    "technique": "Measured motion",
+    "purpose": "Separate trace task cost, rAF cadence and page metrics.",
+    "module": "performance.md",
+    "demo": "assets/examples/observatory/",
+    "tags": [
+      "performance",
+      "latency",
+      "p95",
+      "p99",
+      "frame",
+      "stutter"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-05",
+    "technique": "Safe reference translation",
+    "purpose": "Turn authorized evidence into independent explanatory techniques.",
+    "module": "reference-intake.md",
+    "demo": "assets/examples/materials/",
+    "tags": [
+      "zip",
+      "reference",
+      "video",
+      "facebook",
+      "source",
+      "license"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-06",
+    "technique": "Spatial production choice",
+    "purpose": "Choose a production method by fidelity and measurable cost.",
+    "module": "spatial-production.md",
+    "demo": "assets/examples/observatory/",
+    "tags": [
+      "3d",
+      "blender",
+      "2.5d",
+      "lighting",
+      "rig",
+      "camera"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-07",
+    "technique": "Distinct art direction",
+    "purpose": "Commit to a subject-specific visual hierarchy.",
+    "module": "art-direction.md",
+    "demo": "assets/examples/materials/",
+    "tags": [
+      "design",
+      "typography",
+      "color",
+      "hero",
+      "portfolio"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-08",
+    "technique": "Browser evidence",
+    "purpose": "Test intermediate scenes and functional destinations.",
+    "module": "validation.md",
+    "demo": "assets/examples/observatory/",
+    "tags": [
+      "test",
+      "browser",
+      "verify",
+      "screenshot",
+      "regression"
+    ],
+    "dependencies": "Core: modern browser; no runtime packages.",
+    "limits": "Original explanatory example; not a photorealistic asset or universal performance guarantee.",
+    "validation": "See validation.md and repository tests/browser_check.py",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-09",
+    "technique": "Continuous sculptural thread",
+    "purpose": "Carry focal identity from a spatial illustration into functional editorial content.",
+    "module": "ribbon-continuity.md",
+    "demo": "assets/storyboards/ribbon-continuity.svg",
+    "tags": [
+      "ribbon",
+      "thread",
+      "continuity",
+      "sculpture"
+    ],
+    "dependencies": "SVG, optional original mesh; no source media needed.",
+    "limits": "Original explanatory reconstruction. Source platform unverified; original implementation unknown.",
+    "validation": "Inspect five progress stages, reverse/resize and functional destination.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-10",
+    "technique": "Terrain passage and route continuity",
+    "purpose": "Let a landscape become a navigable journey rather than a decorative background.",
+    "module": "observed-techniques/terrain-passage.md",
+    "demo": "assets/storyboards/terrain-passage.svg",
+    "tags": [
+      "terrain",
+      "journey",
+      "route",
+      "camera"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check terrain occlusion, camera-ground clearance, reverse travel, direct stop links, resize and low-quality tiers. Diagram positions cannot establish geographic accuracy.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-11",
+    "technique": "Anchored service demonstration",
+    "purpose": "Explain a real service through changes to one stable subject, then lead into a functional enquiry path.",
+    "module": "observed-techniques/anchored-restoration.md",
+    "demo": "assets/storyboards/anchored-restoration.svg",
+    "tags": [
+      "workers",
+      "restoration",
+      "tools",
+      "service",
+      "house"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Inspect contact paths, reach, silhouette, scale, reveal edges and pullback continuity at five progress values. A tiny illustrated diagram is not a photorealistic production asset.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-12",
+    "technique": "Design vocabulary as a selection tool",
+    "purpose": "Choose a visual language for the product rather than copying a style label.",
+    "module": "observed-techniques/design-vocabulary.md",
+    "demo": "assets/storyboards/design-vocabulary.svg",
+    "tags": [
+      "style",
+      "bauhaus",
+      "brutalism",
+      "editorial",
+      "typography"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Test real long headings, content density, small displays and functional destinations. Validate the selected style throughout later sections, not only in the hero.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-13",
+    "technique": "Object inspection through camera scale",
+    "purpose": "Let a premium object reveal its function through coherent changes in viewing scale.",
+    "module": "observed-techniques/vessel-inspection.md",
+    "demo": "assets/storyboards/vessel-inspection.svg",
+    "tags": [
+      "yacht",
+      "vessel",
+      "orbit",
+      "inspection",
+      "camera"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check changing scale, deck/hull continuity, horizon, reverse scroll, details and target links. If asset quality is insufficient, change production strategy openly.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-14",
+    "technique": "Showroom corridor into a catalogue",
+    "purpose": "Connect an immersive environment to an ordinary selectable inventory.",
+    "module": "observed-techniques/garage-corridor.md",
+    "demo": "assets/storyboards/garage-corridor.svg",
+    "tags": [
+      "garage",
+      "vehicle",
+      "showroom",
+      "corridor"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Inspect scene seams, wall/ground scale, camera clipping, live card links, reverse scroll and changing viewport aspect ratios.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-15",
+    "technique": "Synchronized product and surface identity",
+    "purpose": "Use a product variant change to reorganize the whole visual world without losing the product identity.",
+    "module": "observed-techniques/surface-identity.md",
+    "demo": "assets/storyboards/surface-identity.svg",
+    "tags": [
+      "product",
+      "skin",
+      "variant",
+      "horizontal",
+      "colour"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check matching silhouettes, label legibility, reverse/fast scroll, disabled JS, real selection state and no text/image overlap.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-16",
+    "technique": "Material origin becomes the product",
+    "purpose": "Make a product feel rooted in its material through a meaningful transformation.",
+    "module": "observed-techniques/material-to-product.md",
+    "demo": "assets/storyboards/material-to-product.svg",
+    "tags": [
+      "stone",
+      "material",
+      "morph",
+      "product",
+      "transformation"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check silhouette transitions, material consistency, shadow grounding, word wrapping, asset failure and actual product navigation.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-17",
+    "technique": "Figure to garment and collection",
+    "purpose": "Let a selected item emerge from a wider collection through controlled fragmentation and scale.",
+    "module": "observed-techniques/figure-to-garment.md",
+    "demo": "assets/storyboards/figure-to-garment.svg",
+    "tags": [
+      "fashion",
+      "garment",
+      "figure",
+      "catalogue",
+      "panels"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check mask registration, garment identity, no cutout seams, direct product links, keyboard selection, resize and fast scroll.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-18",
+    "technique": "Botanical product constellation",
+    "purpose": "Give a product collection a spatial identity through ingredients that participate in its transitions.",
+    "module": "observed-techniques/botanical-product.md",
+    "demo": "assets/storyboards/botanical-product.svg",
+    "tags": [
+      "fragrance",
+      "bottle",
+      "ingredients",
+      "mobile",
+      "constellation"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check labels, cap alignment, compositing edges, ingredient occlusion, active links, reverse scroll and touch input.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-19",
+    "technique": "Exploded ingredients into preparation",
+    "purpose": "Connect appetite, ingredients and preparation through an energetic but readable physical sequence.",
+    "module": "observed-techniques/exploded-ingredients.md",
+    "demo": "assets/storyboards/exploded-ingredients.svg",
+    "tags": [
+      "food",
+      "ingredients",
+      "assembly",
+      "throw",
+      "preparation"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check gravity arcs, local rotation, ingredient thickness, shadow grounding, fast scroll, reverse/jump, semantic menu and unavailable checkout handling.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-20",
+    "technique": "Continuous city descent into vehicle follow",
+    "purpose": "Convert a city-scale establishing view into a close moving subject without a disconnected scene cut.",
+    "module": "observed-techniques/city-to-vehicle.md",
+    "demo": "assets/storyboards/city-to-vehicle.svg",
+    "tags": [
+      "city",
+      "descent",
+      "street",
+      "vehicle",
+      "camera"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Inspect horizon/roof repetition, camera clipping, street occupancy, light moving across the car, tire contact, continuous forward/reverse movement and live destinations.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-21",
+    "technique": "Editorial image selector and spatial card world",
+    "purpose": "Use one coherent image world to move from attention to selectable content, rather than repeating the same project gallery twice.",
+    "module": "observed-techniques/editorial-card-world.md",
+    "demo": "assets/storyboards/editorial-card-world.svg",
+    "tags": [
+      "cards",
+      "selector",
+      "shuffle",
+      "experience",
+      "portfolio"
+    ],
+    "dependencies": "Core: original SVG/DOM explanation. Appropriate licensed assets or optional 3D tools depend on the production brief.",
+    "limits": "Source recording inspected; underlying implementation, exact easing and ownership not inferred. No source media bundled.",
+    "validation": "Check card identity, diagonal axis, text overlap, duplicate project imagery, actual selection, reverse/jump and mobile touch. Original fan demo and anchor helper are independent teaching assets.",
+    "citations": [
+      "https://web.dev/articles/animations-guide"
+    ]
+  },
+  {
+    "id": "SCN-22",
+    "technique": "Prompt or reference to functioning website",
+    "purpose": "Prompt or reference to functioning website",
+    "module": "creation-workflows.md",
+    "demo": "assets/examples/",
+    "tags": [
+      "prompt",
+      "description",
+      "reconstruct",
+      "reference"
+    ],
+    "dependencies": "Optional host tools; core guidance works independently.",
+    "limits": "Verify rights and actual capability. Exact fidelity needs actual assets/source.",
+    "validation": "Inspect production source and actual rendered acceptance.",
+    "citations": [
+      "https://agentskills.io/specification"
+    ]
+  },
+  {
+    "id": "SCN-23",
+    "technique": "Design language and hero composition",
+    "purpose": "Design language and hero composition",
+    "module": "design-and-heroes.md",
+    "demo": "assets/examples/",
+    "tags": [
+      "bauhaus",
+      "bohemian",
+      "brutalism",
+      "human",
+      "hero",
+      "layout",
+      "design"
+    ],
+    "dependencies": "Optional host tools; core guidance works independently.",
+    "limits": "Verify rights and actual capability. Exact fidelity needs actual assets/source.",
+    "validation": "Inspect production source and actual rendered acceptance.",
+    "citations": [
+      "https://agentskills.io/specification"
+    ]
+  },
+  {
+    "id": "SCN-24",
+    "technique": "Final experience reconstruction",
+    "purpose": "Final experience reconstruction",
+    "module": "experience-recipes.md",
+    "demo": "assets/examples/",
+    "tags": [
+      "restoration",
+      "yacht",
+      "food",
+      "dance",
+      "sound",
+      "cards",
+      "product"
+    ],
+    "dependencies": "Optional host tools; core guidance works independently.",
+    "limits": "Verify rights and actual capability. Exact fidelity needs actual assets/source.",
+    "validation": "Inspect production source and actual rendered acceptance.",
+    "citations": [
+      "https://agentskills.io/specification"
+    ]
+  },
+  {
+    "id": "SCN-25",
+    "technique": "Creative skills and MCP routing",
+    "purpose": "Creative skills and MCP routing",
+    "module": "skills-and-mcps.md",
+    "demo": "assets/examples/",
+    "tags": [
+      "mcp",
+      "skills",
+      "tools",
+      "component",
+      "blender"
+    ],
+    "dependencies": "Optional host tools; core guidance works independently.",
+    "limits": "Verify rights and actual capability. Exact fidelity needs actual assets/source.",
+    "validation": "Inspect production source and actual rendered acceptance.",
+    "citations": [
+      "https://agentskills.io/specification"
+    ]
+  },
+  {
+    "id": "SCN-26",
+    "technique": "Complete private source library",
+    "purpose": "Complete private source library",
+    "module": "source-library.md",
+    "demo": "assets/examples/",
+    "tags": [
+      "archive",
+      "register",
+      "prompts",
+      "links",
+      "sources"
+    ],
+    "dependencies": "Optional host tools; core guidance works independently.",
+    "limits": "Verify rights and actual capability. Exact fidelity needs actual assets/source.",
+    "validation": "Inspect production source and actual rendered acceptance.",
+    "citations": [
+      "https://agentskills.io/specification"
+    ]
+  }
+]

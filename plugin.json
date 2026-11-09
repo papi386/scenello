@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scenello",
+  "version": "0.5.0-beta.1",
+  "description": "Reference-driven creative web engineering: art direction, cinematic interaction, responsive implementation and measured verification.",
+  "author": {
+    "name": "papi386"
+  },
+  "license": "MIT",
+  "keywords": [
+    "web-design",
+    "creative-development",
+    "animation",
+    "accessibility",
+    "performance"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Scenello",
+        "shortDescription": "Cinematic web engineering",
+        "longDescription": "Build original, functional websites with reference-led art direction, scroll choreography, responsive composition and measured verification. Core guidance works without external services. Browser automation and asset tools are optional; this package is not a video editor and cannot guarantee universal performance or asset rights.",
+        "developerName": "papi386",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Creative web development",
+          "Scroll animation",
+          "Responsive art direction",
+          "Performance verification"
+        ],
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Use Scenello to create a cinematic website with a visible entrance and reversible scroll transitions.",
+          "Use Scenello to improve this hero while preserving its content and visual identity."
+        ]
+      },
+      "requires_local_executor": true
+    }
+  }
+}

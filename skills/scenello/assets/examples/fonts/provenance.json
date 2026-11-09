@@ -1,0 +1,19 @@
+{
+  "upstream": "https://github.com/microsoft/Selawik",
+  "source_commit": "89362e84731d1f5777fa078fd4d5ebbd339e4378",
+  "source_archive_sha256": "ec6787312a6cae424a4f8d5e21fb54cd13aa4e62bcfd9123b8df7a5fcc73119b",
+  "source_archive_bytes": 742292,
+  "source_license": "OFL-1.1",
+  "renamed_family": "Scenello UI",
+  "build_tool": "FontTools 4.68.0 (MIT), optional development tooling only",
+  "build_script": "tools/build_demo_fonts.py",
+  "modifications": [
+    "decomposed outlines and quadratic conversion",
+    "original geometric navigation glyphs",
+    "renamed family under reserved-name rule",
+    "fixed head timestamps",
+    "0.3 content-specific critical subsets; every retained outline and advance verified identical"
+  ],
+  "runtime_network": "same-origin fonts only; no external provider or telemetry",
+  "critical_subset_builder": "tools/build_critical_fonts.py"
+}
